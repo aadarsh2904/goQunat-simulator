@@ -1,6 +1,6 @@
 import okx.MarketData as MarketData
 
-flag = "0"  # Production trading:0 , demo trading:1
+flag = "1"  # Production trading:0 , demo trading:1
 
 marketDataAPI =  MarketData.MarketAPI(flag=flag)
 
